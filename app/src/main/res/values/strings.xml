@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Jobs</string>
+
+
+    <!--drawer init-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--dialog-->
+
+    <string name="dhalogue_btn_ok">OK</string>
+    <string name="dhalogue_btn_try_again">TRY AGAIN</string>
+
+    <string name="dialogue_connection_error_title">Connection Error</string>
+    <string name="dialogue_connection_error_content">Please check your internet connection and try again</string>
+
+    <string name="dhalogue_loading_content">Please Wait…</string>
+
+
+    <string name="dialogue_try_again_title">Connection Error</string>
+    <string name="dialogue_try_again_content">Please check your internet connection and try again</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+
+
+    <string name="dialogue_retry_title">Connection Error</string>
+    <string name="dialogue_retry_content">Please check your internet connection and try again</string>
+
+    <string name="dhalogue_btn_exit">EXIT</string>
+    <string name="dhalogue_btn_retry">RETRY</string>
+
+
+    <!--Add clientID's final ad-->
+    <!--<string name="App_id">ca-app-pub-9567878898298626~5767596922</string>-->
+    <!--<string name="Banner_id">ca-app-pub-9567878898298626/4791956986</string>-->
+    <!--<string name="Interstitial_id">ca-app-pub-9567878898298626/9061949453</string>-->
+    <!--<string name="Native_id">ca-app-pub-9567878898298626/3631752703</string>-->
+
+    <!--<string name="App_id">ca-app-pub-9567878898298626~3880886915</string>-->
+    <!--<string name="Banner_id">ca-app-pub-9567878898298626/4791956986</string>-->
+    <!--<string name="Interstitial_id">ca-app-pub-9567878898298626/7994599153</string>-->
+    <!--<string name="Native_id">ca-app-pub-9567878898298626/7710801773</string>-->
+
+    <!--<string name="App_id">ca-app-pub-3559577669737220~9077785963</string>-->
+    <!--<string name="Banner_id">ca-app-pub-3559577669737220/9236254988</string>-->
+    <!--<string name="Interstitial_id">ca-app-pub-3559577669737220/5302192486</string>-->
+    <!--<string name="Native_id">ca-app-pub-9567878898298626/7710801773</string>-->
+
+
+    <!--<string name="App_id">ca-app-pub-9567878898298626~922</string>-->
+    <!--<string name="Banner_id">ca-app-pub-9567878898298626/47956986</string>-->
+    <string name="Banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="Interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="Native_id">ca-app-pub-3940256099942544/2247696110</string>
+
+    string values
+
+    <array name="departments">
+        <item>Technical</item>
+        <item>Support</item>
+        <item>Research and Development</item>
+        <item>Marketing</item>
+        <item>Human Resource</item>
+    </array>
+
+
+</resources>

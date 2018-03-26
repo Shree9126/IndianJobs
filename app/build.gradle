@@ -1,0 +1,55 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+    defaultConfig {
+        applicationId "tamilan.jobs"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 3
+        versionName "1.2"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:27.0.0'
+    compile 'com.android.support:design:27.0.0'
+    compile 'com.android.support:cardview-v7:27.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    compile 'com.android.support:recyclerview-v7:27.0.0'
+    compile 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'com.squareup.retrofit:retrofit:1.9.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0-beta4'
+    compile 'com.afollestad.material-dialogs:core:0.8.5.9'
+    compile 'com.squareup.okhttp3:logging-interceptor:3.3.1'
+    implementation 'com.github.bumptech.glide:glide:4.6.1'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile 'com.wdullaer:materialdatetimepicker:3.5.1'
+    compile 'com.daimajia.swipelayout:library:1.2.0@aar'
+    //noinspection GradleCompatible
+    implementation 'com.google.android.gms:play-services-ads:11.8.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.michaelpardo:activeandroid:3.1.0-SNAPSHOT'
+    compile 'com.wang.avi:library:1.0.1'
+    compile 'com.nineoldandroids:library:2.4.0'
+    implementation 'com.google.firebase:firebase-messaging:11.8.0'
+    compile 'com.google.android.gms:play-services-ads:11.8.0'
+}
+apply plugin: 'com.google.gms.google-services'
+repositories {
+    maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    google()
+}

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tamilanjobs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".Helper.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/tamil_app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/tamil_app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="tamil.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="22" />
+        <meta-data
+            android:name="AA_MODELS"
+            android:value="com.tamilanjobs.Response.Inventory,com.tamilanjobs.Response.Reminder" />
+
+        <!--<meta-data-->
+            <!--android:name="com.google.firebase.messaging.default_notification_icon"-->
+            <!--android:resource="@drawable/loc_redicon" />-->
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".DashboardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NotificationActivity"
+            android:label="அறிவிப்புகள்"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FavoritesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="கருத்துக்கள்"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AboutActivity"
+            android:label="எங்களை பற்றி"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrivacyPolicyActivity"
+            android:label="தனியுரிமை கொள்கை"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TermsandConditionActivity"
+            android:label="விதிமுறை நிபந்தனைகள்"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ReminderActivity"
+            android:label="நினைவூட்டல்"
+            android:screenOrientation="portrait" />
+        <activity android:name=".DummyActivity"></activity>
+        <activity
+            android:name=".JobsfullviewActivity"
+            android:label="முழு விபரங்கள்"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FilterActivity"
+            android:label="வடிகட்டல்"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FilterlistActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <receiver
+            android:name=".AlarmManagerBroadcastReceiver"
+            android:process=":remote" />
+        <!--
+                <service
+                    android:name=".Service.MyFirebaseInstanceIDService"
+                    android:enabled="true"
+                    android:exported="true">
+                    <intent-filter>
+                        <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                    </intent-filter>
+                </service>
+                <service
+                    android:name=".Service.MyFirebaseMessagingService"
+                    android:enabled="true"
+                    android:exported="true">
+                    <intent-filter>
+                        <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                    </intent-filter>
+                </service>-->
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".NotificationViewActivity">
+
+        </activity>
+
+
+        <service android:name=".Service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name=".Service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

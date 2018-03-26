@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "801347371128",
+    "firebase_url": "https://tamilan-jobs-app.firebaseio.com",
+    "project_id": "tamilan-jobs-app",
+    "storage_bucket": "tamilan-jobs-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801347371128:android:0289ace6e826ae72",
+        "android_client_info": {
+          "package_name": "tamilan.jobs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801347371128-c1qph5v2a5lrkdj8sa0qblcu9547akqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf1Grv3J_9XeY7EcGmKrxVpmDEIZHDmIA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

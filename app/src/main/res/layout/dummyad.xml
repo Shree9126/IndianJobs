@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+
+    <!--<com.google.android.gms.ads.NativeExpressAdView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/nativeAd"-->
+        <!--ads:adSize="320x150"-->
+        <!--android:visibility="visible"-->
+        <!--ads:adUnitId="ca-app-pub-3940256099942544/2793859312"/>-->
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewbottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/Banner_id"/>
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:src="@color/colorAccent"/>-->
+
+</LinearLayout>

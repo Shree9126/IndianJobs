@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d62514</color>
+    <color name="colorPrimaryDark">#d62514</color>
+    <color name="colorAccent">#d62514</color>
+
+
+    <color name="appbackground">#ebebeb</color>
+    <color name="whitecolor">#ffffff</color>
+    <color name="verylightgreycolorcode">#f5f5f8</color>
+    <color name="redcolorcode">#d62514</color>
+    <color name="bluecolorcode">#302e75</color>
+    <color name="thickgreencolorcode">#008000</color>
+    <color name="lightgreen">#91ca3f</color>
+    <color name="hyperlink">#0000EE</color>
+
+</resources>
